@@ -9,12 +9,7 @@
     align-items: center;
     flex-direction:column;
     background: linear-gradient(19deg, #24d4fd 0%, #b721ff);
-    margin: 0;
-    padding: 0;
-}
-h1{
     color: wheat;
-    margin: 15px;
 }
 input{
     width: 300px;
@@ -22,10 +17,11 @@ input{
     background: none;
     border: none;
     border-bottom: 2px solid wheat;
-    margin: 15px;
     font-size: 1.2rem;
+    margin-top: 1rem;
     color: wheat;
     padding: 0 10px;
+    outline: none;
 }
 button{
     width: 150px;
@@ -33,7 +29,6 @@ button{
     font-size: 1.1rem;
     margin: 15px;   
     cursor: pointer;
-    outline: none;
     background: #b721ff;
     color: wheat;
     border: none;
